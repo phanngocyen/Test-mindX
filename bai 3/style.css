@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to left bottom,#8fd5ce,#de96c3);
+    display: flex;    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    height: 700px;
+    width: 1350px;
+    padding: 4rem;
+    background: rgb(225, 191, 227);
+    border-radius: 10px;
+    position: relative;
+}
+.header__headding h1{
+    text-align: left;
+    font-family: 'Merriweather';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    font-style: normal;
+}
+.header__menu {
+    display: flex;
+}
+.header__menu .heaeder__search{
+    width: 327px;
+    height: 64px;
+    padding: 16px;
+    gap: 8px;
+    border-radius: 4px;
+}
